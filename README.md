@@ -1,24 +1,7 @@
-# README
+# Ruby on Rails: Validations
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Create a site with at least two models (recipe and courses), and allow users to signup, login, logout and perform the full set of CRUD actions. Homepage should:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Show all recipes from all users even if a user is not logged in.
+* Only users are allowed to create edit and destroy entries
+* Order the recipes by course types.
